@@ -40,6 +40,12 @@ TypeScript的文件拓展名是**.ts**
 
 ##### 1.1.05.TypeScript Compile编译
 
+tsc是TypeScript Compile的简写，-w是--watch的简写
+
+**编译文件：**tsc FileName.ts
+
+**监听文件更改，自动编译ts文件：**tsc FileName.ts -w
+
 ##### 1.1.06.体验TypeScript类型校验
 
 ##### 1.1.07.TypeScript类型推断

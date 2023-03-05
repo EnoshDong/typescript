@@ -69,7 +69,20 @@ string[]	number[]	boolean[]
 
 ##### 1.1.09.TypeScript推断对象类型
 
+```ts
+{
+    name: string;
+    age: number;
+    open: boolean;
+    lesson: {
+        title: string;
+    }[];
+}
+```
+
 ##### 1.1.10.去掉VSCode对TypeScript的校验
+
+取消TS类型校验：Settings --> 输入框输入validate --> 选择TypeScript --> disable TypeScript validation
 
 ##### 1.1.11.TypeScript设置基本数据类型
 

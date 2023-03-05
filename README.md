@@ -48,6 +48,15 @@ tsc是TypeScript Compile的简写，-w是--watch的简写
 
 ##### 1.1.06.体验TypeScript类型校验
 
+```ts
+function sum(a:number, b:number) {
+  return a + b;
+}
+console.log('sum:', sum(2, 2));
+```
+
+运行js文件：node FileName.js
+
 ##### 1.1.07.TypeScript类型推断
 
 ##### 1.1.08.TypeScript数组的类型推断

@@ -59,7 +59,13 @@ console.log('sum:', sum(2, 2));
 
 ##### 1.1.07.TypeScript类型推断
 
+number	string	boolean
+
 ##### 1.1.08.TypeScript数组的类型推断
+
+string[]	number[]	boolean[]
+
+(string | number | boolean)[]
 
 ##### 1.1.09.TypeScript推断对象类型
 
